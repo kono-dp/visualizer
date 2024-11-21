@@ -67,7 +67,7 @@ try:
         # TkinterのLabelウィジェットには一つしか画像を載せられないので、
         # 重ねるべき画像を格納するリストをつくり、後で１つの画像に合成する
         pictures_to_combine = list()
-
+        
         # ベースとなる画像を選択
         if controller.get_button(9) and controller.get_button(10):
             base = pictures["LR11"].copy()
@@ -127,16 +127,16 @@ try:
         else:
             new_size = (window_width_now, window_width_now * 880 // 1320)
         base = base.resize(new_size, Image.ANTIALIAS)
-
+        
         # 画像をTkinter対応の形に変換
         combined_picture = ImageTk.PhotoImage(base)
-
+        
         # 画面の更新準備
         image_label.configure(image=combined_picture)
-
-
+        
+        
         b = time.time()
-        print(b-a)
+        print(b-a)  
 
 except KeyboardInterrupt:
     pygame.quit()
