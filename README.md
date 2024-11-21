@@ -1,6 +1,3 @@
-# visualizer
-プロコン用入力可視化ツール
-
 ## Third-Party Libraries
 
 This project uses the following third-party libraries:
