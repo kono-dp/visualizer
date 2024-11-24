@@ -1,0 +1,4 @@
+customtkinter==5.1.2
+pygame==2.3.0
+Pillow==9.4.0
+pyserial==3.5
