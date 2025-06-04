@@ -8,7 +8,7 @@ This project uses the following third-party libraries:
 Please see the included LICENSE files for each library for details.  
 
 
-## 内容
+## リアルタイム入力可視化ツール
 解説動画：https://youtu.be/CfzkOoiG0gY?si=66gtPxYi44bCXKdg  
 
 Nintendo Switch Proコントローラーからの信号を、Arduinoを利用することでPCとSwitchの両方に渡し、ついでにPC上でコントローラの入力をグラフィカルに可視化できるツールです。 
